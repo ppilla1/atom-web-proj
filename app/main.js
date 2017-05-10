@@ -1,2 +1,11 @@
-var browserfly = require('browserfly');
-import asyn from 'asyn';
+/* Sample IIFE */
+
+(function(){
+
+  const message = "Hello, Atom!!";
+
+  console.log(message);
+
+  alert(message);
+
+})();
